@@ -3,6 +3,6 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
-	<bean id="one" class="kr.co.multi.IOCExam.tv.imp1_TV"/>
-	<bean id="two" class="kr.co.multi.IOCExam.tv.imp2_TV"/>
+	<bean id="one" class="IOCExam.tv.imp1_TV"/>
+	<bean id="two" class="IOCExam.tv.imp2_TV"/>
 </beans>

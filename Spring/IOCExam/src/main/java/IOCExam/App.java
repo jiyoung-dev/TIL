@@ -1,4 +1,4 @@
-package kr.co.multi.IOCExam;
+package IOCExam;
 
 /**
  * Hello world!

@@ -1,8 +1,8 @@
-package kr.co.multi.IOCExam.tv;
+package IOCExam.tv;
 
-public class imp2_TV implements TV{
+public class TV02 implements TV{
 	
-	public imp2_TV() {
+	public TV02() {
 		return;
 	}
 	

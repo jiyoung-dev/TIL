@@ -1,4 +1,4 @@
-package kr.co.multi.IOCExam;
+package IOCExam;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

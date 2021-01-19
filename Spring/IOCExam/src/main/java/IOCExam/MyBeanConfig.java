@@ -1,4 +1,4 @@
-package kr.co.multi.IOCExam;
+package IOCExam;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

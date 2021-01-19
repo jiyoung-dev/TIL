@@ -1,4 +1,4 @@
-package kr.co.multi.IOCExam.tv;
+package IOCExam.tv;
 
 //TV 인터페이스 
 public interface TV {

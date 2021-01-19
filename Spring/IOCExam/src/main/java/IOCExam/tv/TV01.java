@@ -1,8 +1,8 @@
-package kr.co.multi.IOCExam.tv;
+package IOCExam.tv;
 
-public class imp1_TV implements TV{
+public class TV01 implements TV{
 
-	public imp1_TV() {
+	public TV01() {
 		return;
 	}
 	@Override
