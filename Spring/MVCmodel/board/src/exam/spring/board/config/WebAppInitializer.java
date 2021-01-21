@@ -7,7 +7,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return null;
+		return new Class<?>[] {ApplicationConfig.class}; // 처음 요청이 들어왔을때 읽는부분
 	}
 
 	@Override
