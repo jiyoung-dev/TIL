@@ -1,5 +1,8 @@
 package exam.spring.board.config;
 
+import javax.servlet.Filter;
+
+import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer { 
@@ -18,6 +21,14 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 	@Override
 	protected String[] getServletMappings() { // servlet의 url처음 매핑하는 부분 
 		return new String[] {"/"}; // url-pattern
+	}
+
+	@Override
+	protected Filter[] getServletFilters() { // Filtering 등록: utf-8로 인코딩 설정 
+		CharacterEncodingFilter encodingFilter = new CharacterEncodingFilter();
+		encodingFilter.setEncoding("utf-8"); 
+		
+		return new Filter[] {encodingFilter};	
 	}
 
 }
